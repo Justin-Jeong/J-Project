@@ -45,7 +45,7 @@ window.onload = function(){
 }
 
 function drawGame(){
-    ctx.fillStyle="#222";
+    ctx.fillStyle="#220";
     ctx.fillRect(0,0,game.width,game.height);
     
     if(gameState=="play")
